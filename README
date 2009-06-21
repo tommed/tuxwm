@@ -1,0 +1,11 @@
+About
+=====
+This example continues on from simple-wm-composite, it uses the clutter library to create a opengl-based front-end.
+NOTE: The same rules apply to starting as the simple-wm example.
+
+Files
+=====
+config.h  - configurable user defaults
+main.c    - entry point of app
+keyboard  - handles keyboard events
+composite - handles the off-screen render buffer (X11 composite extension)
